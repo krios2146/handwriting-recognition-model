@@ -1,7 +1,7 @@
 # Handwriting recognition model
 Deep learning model which can recognize handwriting texts by several criteria
 
-# Setting-up jupyter kernel
+# Setting up project
 
 1. Create python virtual environment
   
@@ -15,23 +15,39 @@ python -m venv {venv-name}
 . {venv-name}/Scripts/activate
 ```
 
-3. Insatll ipykernel
+3. Install jupyter lab / notebook (inside venv)
+
+```bash
+pip install jupyterlab
+```
+
+4. Insatll ipykernel (inside venv)
 
 ```bash
 pip install ipykernel
 ```
 
-4. Create kernel from venv
+5. Create kernel from venv
 
 ```bash
 python -m ipykernel install --name={venv-name}
+```
+
+6. Run jupyter
+
+```bash
+jupyter-lab
+```
+or
+```bash
+jupyter notebook
 ```
 
 > **Warning**
 > 
 > **Do not forget to select installed kernel inside of jupyter lab / notebook**
 
-5. (Remove if necessary)
+7. (Remove kernel if necessary)
 
 ```bash
 jupyter kernelspec uninstall {venv-name}
