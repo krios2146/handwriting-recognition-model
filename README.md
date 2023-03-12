@@ -1,5 +1,6 @@
-# Handwriting recognition model
-Deep learning model which can recognize handwriting texts by several criteria
+# Image classification model
+
+A deep learning model that can classify images into different classes
 
 # Setting up project
 
